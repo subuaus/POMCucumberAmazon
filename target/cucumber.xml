@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.98576">
+<testcase classname="Amazon Signin and Product selection" name="User able to signin and select product" time="13.98576">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)&#13;&#10;&#9;at pages.AmazonLoginPage.ValidateSignLogo(AmazonLoginPage.java:41)&#13;&#10;&#9;at Stepdefinitions.StepDefinitions.amazon_Logo_is_visible(StepDefinitions.java:28)&#13;&#10;&#9;at ✽.When Amazon Logo is visible(C:/Users/User/workspace/POMC/src/main/java/FeaturesRunner/Amazon.feature:4)&#13;&#10;"><![CDATA[Given User already opened the browser.......................................passed
+When Amazon Logo is visible.................................................failed
+Then User will hover to signin button and click it..........................skipped
+Then SignIn page will be open...............................................skipped
+Then enter username and password and signin.................................skipped
+Then validate homepage login................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at pages.AmazonLoginPage.ValidateSignLogo(AmazonLoginPage.java:41)
+	at Stepdefinitions.StepDefinitions.amazon_Logo_is_visible(StepDefinitions.java:28)
+	at ✽.When Amazon Logo is visible(C:/Users/User/workspace/POMC/src/main/java/FeaturesRunner/Amazon.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
